@@ -18,5 +18,3 @@ dist/
 # Ignore temporary directories
 tmp/
 
-# Ignore frontend for now:
-frontend/

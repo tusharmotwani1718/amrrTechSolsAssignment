@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+
+  --color-primary: #2563eb;        /* strong blue */
+  --color-secondary: #14b8a6;      /* teal accent */
+  --color-accent: #f59e0b;         /* orange accent */
+  --color-background: #f9fafb;     /* very light grey */
+  --color-surface: #ffffff;        /* pure white */
+  --color-text: #111827;           /* very dark gray */
+  --color-text-muted: #6b7280;     /* muted text */
+  --color-border: #e5e7eb;         /* subtle border */
+  --color-error: #ef4444;          /* red error */
+  --color-success: #22c55e;        /* green success */
+  --color-warning: #facc15;        /* yellow warning */
+  --color-info: #3b82f6;           /* info blue */
+  --color-link: #2563eb;           /* primary link */
+  --color-link-hover: #1d4ed8;     /* link hover */
+  --color-shadow: rgba(0, 0, 0, 0.06); /* soft shadow */
+  --color-shadow: rgba(0, 0, 0, 0.06); /* soft shadow */
+
+  /* dark theme */
+ --color-dark-primary: #3b82f6;       /* blue */
+  --color-dark-secondary: #2dd4bf;     /* teal */
+  --color-dark-accent: #fbbf24;        /* yellow-orange */
+  --color-dark-background: #0f172a;    /* deep dark navy */
+  --color-dark-surface: #1e293b;       /* dark card bg */
+  --color-dark-text: #f1f5f9;          /* almost white text */
+  --color-dark-text-muted: #94a3b8;    /* muted text */
+  --color-dark-border: #334155;        /* border */
+  --color-dark-error: #f87171;         /* error */
+  --color-dark-success: #4ade80;       /* success */
+  --color-dark-warning: #fde047;       /* warning */
+  --color-dark-info: #60a5fa;          /* info */
+  --color-dark-link: #3b82f6;          /* link */
+  --color-dark-link-hover: #60a5fa;    /* link hover */
+  --color-dark-shadow: rgba(0, 0, 0, 0.5); /* stronger shadow */
+
+  /* fonts */
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Georgia', serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-heading: 'Helvetica Neue', Arial, sans-serif;
+  --font-base: 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+}
