@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import { addItem, deleteItem, getItems } from '../controllers/items.controller.js';
+import { addItem, deleteItem, getItemById, getItems, sendEnquireEmail } from '../controllers/items.controller.js';
 import { uploadMedia } from '../middlewares/multer.middleware.js';
 
 
@@ -13,6 +13,8 @@ router.route('/addItem').post(uploadMedia.fields([
     ]), addItem);
 
 router.route('/deleteItem/:id').delete(deleteItem);
+router.route('/getItem/:id').get(getItemById);
+router.route('/sendmail').post(sendEnquireEmail);
 
 
 export default router;

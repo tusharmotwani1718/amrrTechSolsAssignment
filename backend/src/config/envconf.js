@@ -10,7 +10,9 @@ const envconf = {
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,
     cloudinaryApiKey: process.env.CLOUDINARY_API_KEY,
     cloudinaryApiSecret: process.env.CLOUDINARY_API_SECRET,
-    corsOrigin: process.env.CORS_ORIGIN || '*'
+    corsOrigin: process.env.CORS_ORIGIN || '*',
+    mailAddress: process.env.MAIL_ADDRESS,
+    mailPassword: process.env.MAIL_PASSWORD
 };
 
 export default envconf;
